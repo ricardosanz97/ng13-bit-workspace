@@ -1,5 +1,5 @@
 /**
  * Entry point for this Angular library, do not move or rename this file.
  */
-export * from './my-button.component';
-export * from './my-button.module';
+export * from './ng-button.component';
+export * from './ng-button.module';

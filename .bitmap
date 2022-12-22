@@ -27,11 +27,11 @@
         "mainFile": "index.ts",
         "rootDir": "scope/extensions/custom-node-environment"
     },
-    "ui/my-button": {
+    "ui/ng-button": {
         "scope": "",
         "version": "",
         "mainFile": "public-api.ts",
-        "rootDir": "scope/ui/my-button"
+        "rootDir": "scope/ui/ng-button"
     },
     "ui/react-button": {
         "scope": "",

@@ -3,7 +3,7 @@
 To get started straight away you can create a bit component, for example:
 
 ```bash
-bit create ng-lib ui/my-button --env teambit.angular/versions/angular-v13
+bit create ng-lib ui/ng-button --env teambit.angular/versions/angular-v13
 ```
 
 Then you need to install the dependencies for the generated component:

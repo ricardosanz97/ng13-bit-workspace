@@ -14446,9 +14446,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"my-button-001704@workspace:scope/ui/my-button":
+"ng-button-001704@workspace:scope/ui/ng-button":
   version: 0.0.0-use.local
-  resolution: "my-button-001704@workspace:scope/ui/my-button"
+  resolution: "ng-button-001704@workspace:scope/ui/ng-button"
   dependencies:
     "@types/jest": ^27.0.3
   languageName: unknown
