@@ -4855,13 +4855,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:>=26.0.0 <27.0.0":
-  version: 26.0.24
-  resolution: "@types/jest@npm:26.0.24::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fjest%2F-%2Fjest-26.0.24.tgz"
+"@types/jest@npm:26.0.20":
+  version: 26.0.20
+  resolution: "@types/jest@npm:26.0.20::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fjest%2F-%2Fjest-26.0.20.tgz"
   dependencies:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
-  checksum: ae39675412f08d884926254e9b12bfd2b5a4e4d204c94d3148cb942174a474930d0c60540133c968f22241d4712b7940c96cbc883096eb326a4d5b206fb78bd0
+  checksum: db7730d2d70d2cdaef0ade7a5185fad844b21df827eafdd1690ce8053c399277ecce6b274ffd649e7a38008e192e8f0eb3ecc296b69e75407e30a9c8388d0d5c
   languageName: node
   linkType: hard
 
@@ -7950,6 +7950,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"custom-node-environment-c07369@workspace:scope/extensions/custom-node-environment":
+  version: 0.0.0-use.local
+  resolution: "custom-node-environment-c07369@workspace:scope/extensions/custom-node-environment"
+  dependencies:
+    "@types/jest": ^27.0.3
+  languageName: unknown
+  linkType: soft
+
 "cycle@npm:1.0.x":
   version: 1.0.3
   resolution: "cycle@npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcycle%2F-%2Fcycle-1.0.3.tgz"
@@ -9771,7 +9779,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express@npm:^4.17.1":
+"express-app-01cdc0@workspace:scope/express-app":
+  version: 0.0.0-use.local
+  resolution: "express-app-01cdc0@workspace:scope/express-app"
+  languageName: unknown
+  linkType: soft
+
+"express@npm:4.18.2, express@npm:^4.17.1":
   version: 4.18.2
   resolution: "express@npm:4.18.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fexpress%2F-%2Fexpress-4.18.2.tgz"
   dependencies:
@@ -14446,14 +14460,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ng-button-001704@workspace:scope/ui/ng-button":
-  version: 0.0.0-use.local
-  resolution: "ng-button-001704@workspace:scope/ui/ng-button"
-  dependencies:
-    "@types/jest": ^27.0.3
-  languageName: unknown
-  linkType: soft
-
 "nan@npm:^2.14.1, nan@npm:^2.15.0":
   version: 2.17.0
   resolution: "nan@npm:2.17.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnan%2F-%2Fnan-2.17.0.tgz"
@@ -14570,6 +14576,14 @@ __metadata:
   checksum: 83b5cf36027a53ee6d8b7f9c0782f2ba87f4858d977342bfc3c20c21629290a2111f8374d13a81221179603ffc4364f38374b5655d17b6a8f8a8c77bdea4fe8b
   languageName: node
   linkType: hard
+
+"ng-button-3cfe08@workspace:scope/ui/ng-button":
+  version: 0.0.0-use.local
+  resolution: "ng-button-3cfe08@workspace:scope/ui/ng-button"
+  dependencies:
+    "@types/jest": ^27.0.3
+  languageName: unknown
+  linkType: soft
 
 "ng-packagr@npm:~13.2.1":
   version: 13.2.1
@@ -17339,12 +17353,14 @@ __metadata:
     "@angular/platform-browser-dynamic": ~13.2.0
     "@babel/runtime": 7.12.18
     "@teambit/angular-v13": 1.2.27
-    "@types/jest": ">=26.0.0 <27.0.0"
+    "@teambit/harmony": 0.3.3
+    "@types/jest": 26.0.20
     "@types/node": 12.20.4
     "@types/react": ^17.0.8
     "@types/react-dom": ^17.0.5
     "@types/testing-library__jest-dom": 5.9.5
     core-js: ^3.0.0
+    express: 4.18.2
     jest: ^27.4.4
     jest-preset-angular: ~11.0.1
     react: ^16.8.0 || ^17.0.0

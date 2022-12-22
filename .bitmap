@@ -9,24 +9,6 @@
  */
 
 {
-    "express-app": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "scope/express-app",
-        "config": {
-            "company.scope/extensions/custom-node-environment": {},
-            "teambit.envs/envs": {
-                "env": "company.scope/extensions/custom-node-environment"
-            }
-        }
-    },
-    "extensions/custom-node-environment": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "scope/extensions/custom-node-environment"
-    },
     "ui/ng-button": {
         "scope": "",
         "version": "",
