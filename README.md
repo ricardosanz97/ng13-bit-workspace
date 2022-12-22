@@ -1,8 +1,8 @@
 # Description
 
-This project is a small POC of how Bit works. It contains examples of three components using different frameworks (Angular, React and Node). The framework used to create the workspace is Angular 13.
+This project is a small POC of how Bit works. It contains examples of two components using different frameworks (Angular and React). The framework used to create the workspace is Angular 13.
 
-Each time a new component is created you must select the template to indicate which framework it will use to create it. Once this has done, the environment has to be assigned to that component. For instance, if you create the workspace using an Angular template (ng-workspace), all the componentes that you create will use the default environment (Angular in this case). So, even if you create a new component using a react template, the environment that it will use will be the default one. You will have to set the environment for that component.
+Each time a new component is created you must select the template to indicate which framework it will use to create it. Once this has done, the environment has to be assigned to that component. For instance, if you create the workspace using an Angular template (ng-workspace), all the components that you create will use the default environment (Angular in this case). So, even if you create a new component using a react template, the environment that it will use will be the default one. You will have to set the environment for that component.
 
 https://bit.dev/docs/react/react-overview
 
