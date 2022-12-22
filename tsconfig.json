@@ -2,6 +2,7 @@
   /* The options defined in this file will only be used by your IDE, not by Bit */
 
   "compilerOptions": {
+    "jsx": "react",
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Basic Options */

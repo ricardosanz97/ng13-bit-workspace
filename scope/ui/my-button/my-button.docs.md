@@ -1,6 +1,6 @@
 ---
 labels: ['angular', 'typescript', 'my-button']
-description: 'A `my-button` component.'
+description: 'A button that shows an alert when click.'
 ---
 
 # MyButton documentation

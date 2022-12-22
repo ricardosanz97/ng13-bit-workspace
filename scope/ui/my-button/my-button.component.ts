@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class MyButtonComponent {
   constructor() {}
 
-  logMessage(): void {
-    console.log('have a good day!')
+  launchAlert(): void {
+    alert('You clicked me!')
   }
 }

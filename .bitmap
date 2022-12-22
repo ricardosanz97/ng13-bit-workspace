@@ -15,5 +15,17 @@
         "mainFile": "public-api.ts",
         "rootDir": "scope/ui/my-button"
     },
+    "ui/react-button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "scope/ui/react-button",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "$schema-version": "15.0.0"
 }
