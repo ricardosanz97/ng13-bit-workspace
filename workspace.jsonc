@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "company.scope"
+    "defaultScope": "ricardosanz97.test-scope"
   },
   /**
    * main configuration for component dependency resolution.
@@ -38,9 +38,12 @@
      */
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
-      "dependencies": {},
+      "dependencies": {
+        "@testing-library/react": "12.1.2"
+      },
       "peerDependencies": {}
-    }
+    },
+    "linkCoreAspects": true
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your

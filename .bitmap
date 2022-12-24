@@ -10,22 +10,16 @@
 
 {
     "ui/ng-button": {
-        "scope": "",
-        "version": "",
+        "scope": "ricardosanz97.test-scope",
+        "version": "0.0.1",
         "mainFile": "public-api.ts",
         "rootDir": "scope/ui/ng-button"
     },
     "ui/react-button": {
-        "scope": "",
-        "version": "",
+        "scope": "ricardosanz97.test-scope",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "scope/ui/react-button",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "scope/ui/react-button"
     },
     "$schema-version": "15.0.0"
 }
