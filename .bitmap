@@ -11,13 +11,13 @@
 {
     "ui/ng-button": {
         "scope": "ricardosanz97.test-scope",
-        "version": "0.0.1",
+        "version": "bca62aaf951a58fdcd61fe281c7d05b6737e7837",
         "mainFile": "public-api.ts",
         "rootDir": "scope/ui/ng-button"
     },
     "ui/react-button": {
         "scope": "ricardosanz97.test-scope",
-        "version": "0.0.1",
+        "version": "9a4b295873d164dea89e1cd98f895fd5eee55192",
         "mainFile": "index.ts",
         "rootDir": "scope/ui/react-button"
     },

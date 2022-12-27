@@ -314,7 +314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:13.2.7, @angular/core@npm:~13.2.0":
+"@angular/core@npm:~13.2.0":
   version: 13.2.7
   resolution: "@angular/core@npm:13.2.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40angular%2Fcore%2F-%2Fcore-13.2.7.tgz"
   dependencies:
@@ -17501,7 +17501,7 @@ __metadata:
     "@angular/common": ~13.2.0
     "@angular/compiler": ~13.2.0
     "@angular/compiler-cli": ~13.2.0
-    "@angular/core": 13.2.7
+    "@angular/core": ~13.2.0
     "@angular/platform-browser": ~13.2.0
     "@angular/platform-browser-dynamic": ~13.2.0
     "@babel/runtime": 7.12.18
@@ -17523,6 +17523,7 @@ __metadata:
     zone.js: ~0.11.4
   peerDependencies:
     "@angular/common": ~13.2.0
+    "@angular/core": ~13.2.0
     "@angular/platform-browser": ~13.2.0
     "@angular/platform-browser-dynamic": ~13.2.0
     react: ^16.8.0 || ^17.0.0

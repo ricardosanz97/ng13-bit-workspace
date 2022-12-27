@@ -4,6 +4,6 @@ import { BasicReactButton } from './react-button.composition';
 
 it('should render with the correct text', () => {
   const { getByText } = render(<BasicReactButton />);
-  const rendered = getByText('Click me!');
+  const rendered = getByText('React-Click me!');
   expect(rendered).toBeTruthy();
 });

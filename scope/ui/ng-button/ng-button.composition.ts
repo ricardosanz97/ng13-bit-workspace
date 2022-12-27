@@ -3,7 +3,7 @@ import { NgButtonModule } from './ng-button.module';
 
 @Component({
   selector: 'ng-button-composition-cmp',
-  template: `NgButton composition: <ng-button></ng-button>`
+  template: `<ng-button></ng-button>`
 })
 class NgButtonCompositionComponent {}
 
